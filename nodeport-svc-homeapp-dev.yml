@@ -8,4 +8,4 @@ spec:
     app: label-pod-homeapp-dev
   ports:
     - port: 8180
-      nodePort: 31012 #até 32767
+      nodePort: 30001 #até 32767
