@@ -8,4 +8,4 @@ spec:
     app: label-pod-homeapp-prod
   ports:
     - port: 8081
-      nodePort: 31013 #até 32767
+      nodePort: 31014 #até 32767
