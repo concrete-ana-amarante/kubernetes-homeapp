@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: homeapp-prod
+  labels:
+    app: label-pod-homeapp-prod
+spec:
+  containers:
+    - name: container-pod-homeapp-prod
+      image: concreteanaamarante/home-app-java
+      ports:
+        - containerPort: 8081
