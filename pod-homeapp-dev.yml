@@ -9,4 +9,4 @@ spec:
     - name: container-pod-homeapp-dev
       image: concreteanaamarante/home-app-java
       ports:
-        - containerPort: 8081
+        - containerPort: 8180
