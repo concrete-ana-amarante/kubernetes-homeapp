@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: container-pod-homeapp-prod
-      image: tigo17/home-app
+      image: concreteanaamarante/home-app 
       ports:
         - containerPort: 8180
